@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-h1,h2,p {
+h1,h2,h3,p {
   vertical-align: center;
   text-align: center;
 }
@@ -259,7 +259,7 @@ input[type='submit']:hover {
   text-align: center;
   margin-bottom: 5px;
   font-size:12px;
-  color: #777;
+  color: red;
 }
 
 .days li .active {
