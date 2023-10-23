@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-h2 {
+h1,h2,p {
   vertical-align: center;
   text-align: center;
 }
@@ -28,7 +28,6 @@ body {
   color: #fff;
   height: 50px;
   padding: 1em;
-  margin-bottom: 20px;
 }
 
 .menu {
@@ -200,11 +199,85 @@ input[type='submit']:hover {
 }
 .land-page {
   width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .land-page img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+}
+.calender-container .land-page{
+  display: inline;
+  text-align: center;
 }
 /*Start page body */
+/*Calender*/
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+/*Calender*/
