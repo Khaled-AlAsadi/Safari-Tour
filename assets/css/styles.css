@@ -4,7 +4,8 @@ h2 {
   text-align: center;
 }
 
-html, body {
+html,
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -12,7 +13,7 @@ html, body {
 }
 
 * {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   box-sizing: border-box;
 }
 /*navbar*/
@@ -22,9 +23,9 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
+  background-color: #00baf0;
   background: linear-gradient(to left, #f46b45, #eea849);
-  color: #FFF;
+  color: #fff;
   height: 50px;
   padding: 1em;
   margin-bottom: 20px;
@@ -143,34 +144,36 @@ footer {
   margin-top: auto;
 }
 /*gallery-page styles*/
-.gallery-body-container{
+.gallery-body-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   align-items: stretch;
   justify-items: center;
 }
-.gallery-body-container img{
+.gallery-body-container img {
   border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   max-width: 80%;
 }
 /*gallery-page styles*/
 
 /*Contact Form*/
-input[type=text], select, textarea {
+input[type='text'],
+select,
+textarea {
   width: 100%;
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical 
+  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
+input[type='submit'] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -178,7 +181,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #45a049;
 }
 
@@ -188,3 +191,20 @@ input[type=submit]:hover {
   padding: 20px;
 }
 /*Contact Form*/
+/*Start page body */
+.main-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  max-height: 100%;
+}
+.land-page {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.land-page img {
+  width: 100%;
+  height: auto;
+}
+/*Start page body */
