@@ -147,16 +147,17 @@ footer {
 }
 /*gallery-page styles*/
 .gallery-body-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  align-items: stretch;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
+
 .gallery-body-container img {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
-  max-width: 80%;
+  max-width: 100%;
+  height: auto;
 }
 /*gallery-page styles*/
 
@@ -191,6 +192,7 @@ input[type='submit']:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  height: 100vh;
 }
 /*Contact Form*/
 /*Start page body */

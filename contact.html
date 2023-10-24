@@ -41,6 +41,7 @@
           <input
             type="text"
             id="fname"
+            required
             name="firstname"
             placeholder="Your name.."
           />
@@ -49,10 +50,21 @@
           <input
             type="text"
             id="lname"
+            required
             name="lastname"
             placeholder="Your last name.."
           />
-
+          <label for="lname">email</label>
+          <input
+            type="text"
+            id="email"
+            required
+            pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$"
+            name="email"
+            placeholder="Your email address.."
+            minlength="5"
+            oninput="setCustomValidity('Please enter a valid email address EX:test@gmail.com')"
+          />
           <label for="country">Country</label>
           <select id="country" name="country">
             <option value="australia">Australia</option>
@@ -65,10 +77,11 @@
             id="subject"
             name="subject"
             placeholder="Write something.."
-            style="height: 200px"
+            style="height: 200px;"
+            required
           ></textarea>
 
-          <input type="submit" value="Submit" />
+          <button type="submit" value="Submit">Submit</button>
         </form>
       </div>
     </main>
