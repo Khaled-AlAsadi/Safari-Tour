@@ -14,7 +14,13 @@ body {
   min-height: 100vh;
   margin: 0;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: white;
+}
 * {
   font-family: 'Raleway';
   box-sizing: border-box;
@@ -216,7 +222,7 @@ input[type='submit']:hover {
   height: 100%;
   object-fit: cover;
 }
-.calender-container .land-page {
+.calender-container .content {
   display: inline;
   text-align: center;
 }
@@ -225,7 +231,7 @@ input[type='submit']:hover {
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #162fcd;
   text-align: center;
 }
 

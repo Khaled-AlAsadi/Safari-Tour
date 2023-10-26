@@ -36,7 +36,7 @@
     </header>
     <main>
       <div class="container">
-        <form action="action_page.php">
+        <form>
           <label for="fname">First Name</label>
           <input
             type="text"
@@ -63,7 +63,7 @@
             name="email"
             placeholder="Your email address.."
             minlength="5"
-            oninput="setCustomValidity('Please enter a valid email address EX:test@gmail.com')"
+            oninput="setCustomValidity('');"
           />
           <label for="country">Country</label>
           <select id="country" name="country">
