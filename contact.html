@@ -1,95 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-    />
-    <meta name="author" content="Khaled Al Asadi" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Safari Tour</title>
-  </head>
 
-  <body class="contact-page">
-    <header>
-      <section class="top-nav">
-        <div>
-          <a href="index.html">SF</a>
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class="menu-button-container" for="menu-toggle">
-          <span class="menu-button"></span>
-        </label>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </section>
-    </header>
-    <main class="contact-main">
-      <div class="contact-container">
-        <form>
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            required
-            name="firstname"
-            placeholder="Your name.."
-          />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <meta name="author" content="Khaled Al Asadi">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Safari Tour</title>
+</head>
 
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-          <label for="lname">email</label>
-          <input
-            type="text"
-            id="email"
-            required
-            pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$"
-            name="email"
-            placeholder="Your email address.."
-            minlength="5"
-            oninput="setCustomValidity('');"
-          />
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
-            style="height: 200px;"
-            required
-          ></textarea>
-
-          <button type="submit" value="Submit">Submit</button>
-        </form>
+<body class="contact-page">
+  <header>
+    <section class="top-nav">
+      <div>
+        <a href="index.html">SF</a>
       </div>
-    </main>
-    <footer>
-      <a href="https://www.facebook.com" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://github.com/Khaled-AlAsadi" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </footer>
-  </body>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <span class="menu-button"></span>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </section>
+  </header>
+  <main class="contact-main">
+    <div class="contact-container">
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required name="firstname" placeholder="Your name.." />
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+        <label for="lname">email</label>
+        <input type="text" id="email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$" name="email"
+          placeholder="Your email address.." minlength="5" oninput="setCustomValidity('');" />
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px;"
+          required></textarea>
+
+        <button type="submit" value="Submit">Submit</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <a href="https://www.facebook.com" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://github.com/Khaled-AlAsadi" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </footer>
+</body>
+
 </html>
