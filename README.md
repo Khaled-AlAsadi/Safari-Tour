@@ -18,6 +18,12 @@ Welcome to the Safari Tour Website, your passport to a world of adventure and na
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
     ![Picture of the footer](assets/media/footer.png)
+- Gallery
+  - The gallery will provide the user with diffrent images of wildlife animals.
+    ![Picture of the gallery page](assets/media/Gallery.png)
+- Contact
+  - The Contact Page will provide the ability for the user to contact and book a trip
+    ![Picture of the gallery page](assets/media/contact-page-mobile.png)
 
 ## Testing
 
