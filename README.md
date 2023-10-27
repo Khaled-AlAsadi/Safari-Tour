@@ -2,8 +2,6 @@
 
 Welcome to the Safari Tour Website, your passport to a world of adventure and natural wonders. Our project, the Safari Tour Website, is your gateway to the ultimate exploration of the wild.
 ![Picture of page on iPad-Mini](assets/media/iPad-Mini-portrait.png)
-![Picture of page on larger desktop](assets/media/laptop-front.png)
-![Picture of page on Iphone 14](assets/media/iphone14-portrait.png)
 
 ## Features
 
