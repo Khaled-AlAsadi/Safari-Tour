@@ -30,7 +30,7 @@ Welcome to the Safari Tour Website, your passport to a world of adventure and na
 
 - Validator Testing
   - HTML
-    - No errors were returned when passing through [validator.w3.org](https://validator.w3.org/)
+    - No errors were returned when passing through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   - CSS
     - No errors were returned when passing through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
