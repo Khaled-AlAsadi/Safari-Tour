@@ -46,5 +46,6 @@ The live link can be found here - https://khaled-alasadi.github.io/Safari-Tour/
 
 - Content
   - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+  - The Videos embedded in the page are [FreeDocumentaryNature](https://www.youtube.com/watch?v=kpy8-bIq2X4),[BBC Earth](https://www.youtube.com/watch?v=EF8C4v7JIbA),[ NTIONAL GEOGRAPHIC WILD](https://www.youtube.com/watch?v=mSLXIqYVVNI),[Free High-Quality Documentaries](https://www.youtube.com/watch?v=1JWEb2uKZ28)
 - Media
   - The images used for the gallery page were taken from [AFRICAN WILDLIFE FOUNDATION](https://www.awf.org/wildlife-conservation/all)
