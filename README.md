@@ -35,6 +35,12 @@ Welcome to the Safari Tour Website, your passport to a world of adventure and na
     - No errors were returned when passing through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - Click on Pages
+  - Select the branch and click save
+The live link can be found here - https://khaled-alasadi.github.io/Safari-Tour/
+
 
 ## Credits
 
