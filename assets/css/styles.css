@@ -184,7 +184,6 @@ footer a i:hover {
 /* gallery-page styles */
 .gallery-body-container {
   padding: 20px;
-  display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
