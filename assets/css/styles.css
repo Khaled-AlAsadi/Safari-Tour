@@ -310,22 +310,25 @@ input[type='submit']:hover {
   height: 100%;
   object-fit: cover;
 }
-.calender-container{
-  
+/* Calendar */
+.calender-container {
+  max-width: 91%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
 }
+
 .calender-container .content {
-  display: inline;
   text-align: center;
 }
+
 .calender-container p a {
   color: blue;
 }
 
-/*Start page body */
-/*Calender*/
 .month {
-  padding: 70px 25px;
-  width: 100%;
   background: #162fcd;
   text-align: center;
 }
@@ -338,13 +341,12 @@ input[type='submit']:hover {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
 .month ul li {
   list-style-type: none;
 }
 
 .weekdays {
-  margin: 0;
-  padding: 10px 0;
   background-color: #ddd;
 }
 
@@ -368,7 +370,7 @@ input[type='submit']:hover {
   text-align: center;
   margin-bottom: 5px;
   font-size: 12px;
-  color: red;
+  color: #333;
 }
 
 .days li .active {
@@ -378,15 +380,13 @@ input[type='submit']:hover {
 }
 
 @media screen and (max-width: 720px) {
-  .weekdays li,
-  .days li {
+  .weekdays li, .days li {
     width: 13.1%;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .weekdays li,
-  .days li {
+  .weekdays li, .days li {
     width: 12.5%;
   }
 
@@ -396,13 +396,10 @@ input[type='submit']:hover {
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li,
-  .days li {
+  .weekdays li, .days li {
     width: 12.2%;
   }
 }
-
-/*Calender*/
 
 /*iframes*/
 .media-container {
