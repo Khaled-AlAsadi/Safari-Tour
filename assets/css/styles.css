@@ -34,12 +34,14 @@ a:hover {
 
 .top-nav {
   display: flex;
+  position: fixed;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background: linear-gradient(to left, #f46b45, #eea849);
   color: #fff;
   height: 50px;
+  width: 100%;
   padding: 1em;
 }
 
