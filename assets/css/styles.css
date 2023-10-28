@@ -187,7 +187,8 @@ footer a i:hover {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-top: 54px;
+  margin-top: 50px;
+  background-color: #f5f5f5;
 }
 
 .gallery-body-container img {
@@ -309,7 +310,9 @@ input[type='submit']:hover {
   height: 100%;
   object-fit: cover;
 }
-
+.calender-container{
+  
+}
 .calender-container .content {
   display: inline;
   text-align: center;
