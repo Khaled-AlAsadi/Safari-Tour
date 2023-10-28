@@ -1,6 +1,6 @@
 # Safari Tour
-
-Welcome to the Safari Tour Website, your passport to a world of adventure and natural wonders. Our project, the Safari Tour Website, is your gateway to the ultimate exploration of the wild.
+The Safari Tour website allows people to learn about the wild life and find information about animals living in the wild . The visitors of the website could quickly contact the company about booking a trip as well as asking questions.
+The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-Tour/)
 ![Picture of page on iPad-Mini](/documentation/ipad-mini-portrait.png)
 
 ## Features
