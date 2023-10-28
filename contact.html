@@ -32,15 +32,18 @@
   </header>
   <main class="contact-main">
     <section class="contact-container">
+      <header>
+        <h1>Contact Us</h1>
+     </header>
       <form>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" required name="firstname" placeholder="Your name.." />
+        <input type="text" id="fname" required name="firstname" placeholder="Your name..">
 
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         <label for="lname">email</label>
         <input type="text" id="email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$" name="email"
-          placeholder="Your email address.." minlength="5" oninput="setCustomValidity('');" />
+          placeholder="Your email address.." minlength="5" oninput="setCustomValidity('');">
         <label for="country">Country</label>
         <select id="country" name="country">
           <option value="australia">Australia</option>
