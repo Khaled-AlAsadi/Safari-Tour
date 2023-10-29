@@ -126,6 +126,11 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 
 ### Color Scheme
 
+- blue color was used for the "contact us" button and the calender .
+
+- Orange color was used for the header and the hove effect for the footer icons.
+
+- Grey and/or white colors was used  for the background.
 
 ### Typography
 ![Main Font](documentation/primary_font.png)
