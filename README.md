@@ -69,7 +69,7 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 
     - Call to Action Section has an explicit message for the visitors of the website to contact the company.
 
-    - Is also has a button that directs to the contact page.
+    - has also a button that directs to the contact page.
 ​
     ![Call to Action Section](documentation/call_to_action.png)
 
