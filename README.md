@@ -40,7 +40,7 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 
     - The navigation bar is responsive:
         * On mobile devices: 
-            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
+            - navigation bar filled with the logo in the center and a hamburger menu implemented on the right side of the navigation bar.      
             ![NavBar Mobile Closed](documentation/header-mobile.png)
         
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
