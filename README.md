@@ -62,14 +62,6 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 + #### Videos Section
 
     - Videos section have six diffrent documentaries.
-
-    - Hero section have the block section below the image that consist:
-
-        * The name of the company.
-        * Short description of the company's philosophy.
-        * Contact button that leads directly to the contact page.
-
-    
     ![Videos Section](documentation/documentaries-desktop.png)
 
 --- 
