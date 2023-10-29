@@ -186,3 +186,8 @@ In your IDE Terminal, type the following command to clone my repository:
 
 - `git clone https://github.com/Khaled-AlAsadi/Safari-Tour.git`
 ---
+## Future improvements
+- add favicon with [Favicon Generator.](https://realfavicongenerator.net/);
+- add custom 404 page;
+- improve the quality of the commit messages.
+---
