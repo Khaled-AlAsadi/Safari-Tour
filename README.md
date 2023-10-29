@@ -173,7 +173,7 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 ### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/IuliiaKonovalova/animal_shelter), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/Khaled-AlAsadi/Safari-Tour), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
