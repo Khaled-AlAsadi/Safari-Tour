@@ -1,7 +1,7 @@
 # Safari Tour
 The Safari Tour website allows people to learn about the wild life and find information about animals living in the wild . The visitors of the website could quickly contact the company about booking a trip as well as asking questions.
 The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-Tour/)
-![Picture of page on iPad-Mini](/documentation/ipad-mini-portrait.png)
+
 
 ---
 
