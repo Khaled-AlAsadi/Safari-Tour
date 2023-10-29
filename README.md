@@ -128,8 +128,9 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 
 
 ### Typography
+![Main Font](documentation/primary_font.png)
 
-
+- Raleway Google Font was used as the main font of the website.
 
 ### Wireframes
 

@@ -28,6 +28,7 @@ a:hover {
 * {
   font-family: 'Raleway';
   box-sizing: border-box;
+  font-weight: 600;
 }
 
 /*navbar*/
