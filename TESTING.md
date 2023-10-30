@@ -11,9 +11,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Edge](documentation/browsers_edge.gif)
 
   - Chrome:
+
     ![Chrome](documentation/browsers_chrome.gif)
 
   - Brave:
+
     ![Brave](documentation/browsers_brave.gif)
 
 ## Responsiveness
