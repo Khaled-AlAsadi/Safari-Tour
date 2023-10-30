@@ -53,6 +53,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Desktop 1920x1200](documentation/desktop_1920_1200.gif)
 
     - Tablet Screens:
+
     ![Tablet 600x960](documentation/tablet_600_960.gif)
     ![Tablet 768x1024](documentation/tablet_768_1024.gif)
     ![Tablet 800x1280](documentation/tablet_800_1280.gif)
@@ -60,6 +61,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Tablet 1366x1024](documentation/tablet_1366_1024.gif)
 
     - Mobile Screens:
+    
     ![Mobile 320x480](documentation/mobile_320_480.gif)
     ![Mobile 320x568](documentation/mobile_320_568.gif)
     ![Mobile 360x640](documentation/mobile_360_640.gif)
