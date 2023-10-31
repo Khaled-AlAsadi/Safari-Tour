@@ -31,7 +31,6 @@ a:hover {
 }
 
 /*navbar*/
-
 .top-nav {
   display: flex;
   position: fixed;
@@ -116,7 +115,6 @@ footer {
   text-align: center;
   padding: 10px;
   width: 100%;
-  margin-top: auto;
 }
 
 
@@ -187,10 +185,13 @@ footer a i:hover {
 .gallery-body-container h2 {
   margin-bottom: -10px;
 }
-/* gallery-page styles */
+
 /*Contact Form*/
 .contact-page {
   background-color: #f5f5f5;
+}
+.contact-page footer{
+  margin-top: auto;
 }
 
 .contact-main {
@@ -254,7 +255,7 @@ input[type='submit'] {
 input[type='submit']:hover {
   background-color: #45a049;
 }
-/*Contact Form*/
+
 
 /*Start page body */
 .main-container {
@@ -371,7 +372,7 @@ input[type='submit']:hover {
   margin: 10px;
 }
 
-/*iframes*/
+
 /*call to action*/
 .cta-container {
   text-align: center;
@@ -416,13 +417,16 @@ input[type='submit']:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #3498db; 
+  height: 95.1vh;
+  width: 100%;
+  background-color: #3498db;
   color: #fff;
   text-align: center;
   flex-direction: column;
+  overflow: hidden;
 }
-.response_text p {
+
+.response_text h2 {
   font-size: 24px;
   margin: 10px 0;
 }
