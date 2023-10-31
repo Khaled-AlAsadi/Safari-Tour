@@ -142,7 +142,7 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 
 - blue color was used for the "contact us" button and the calender .
 
-- Orange color was used for the header and the hove effect for the footer icons.
+- Orange color was used for the header and the hover effect for the footer icons and the contact us button.
 
 - Grey and/or white colors was used for the background.
 
@@ -214,6 +214,10 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Credits
+
+- ### Contributors
+  - Khaled Al Asadi
+
 
 - #### Media
 

@@ -125,7 +125,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ## Bugs
 + ### Solved bugs
-    - None.
+    - The pictures in the gallery were not centered across all  screens and needed to be fixed.
+    - The response page was scrollable even though it was not supposed to be.
     ---
 + ### Unsolved bugs
     - None.
