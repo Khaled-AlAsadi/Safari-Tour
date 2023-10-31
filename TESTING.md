@@ -98,7 +98,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Validator testing
 + ### HTML
   #### Home Page
-    - two warnings were found when passing through the official W3C validator.
+    - No errors or warnings were found when passing through the official W3C validator.
 
 
     ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
