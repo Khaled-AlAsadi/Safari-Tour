@@ -22,7 +22,7 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 ### Frequent Visitor Goals:
 
 - As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email.
-- As a Frequent User, I want to learn about various animals.
+- As a Frequent User, I want to learn about various animals, so I can widen my horizons.
 
 ## Features
 
