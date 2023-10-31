@@ -93,7 +93,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Subject input | Enter the subject | The subject is entered | Yes | Yes | If user doesn't enter the subject, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears.|
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
-
+| Response page | | | | | |
+| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
 ---
 ## Validator testing
 + ### HTML

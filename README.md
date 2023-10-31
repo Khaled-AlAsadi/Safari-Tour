@@ -215,15 +215,15 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Credits
 
-- ### Contributors
-  - Khaled Al Asadi
++ #### Content
 
+    - Inspiration for the website came from the website [Safari-Retreat](https://kimskogfelter.github.io/Safari-Retreat)
 
-- #### Media
++ #### Media
 
   - All the images for the website were taken from [AFRICAN WILDLIFE FOUNDATION](https://www.awf.org/wildlife-conservation/all).
 
-- #### Tools
++ #### Tools
 
   - [ezgif](https://ezgif.com/) was used to convert video to gif.
 
