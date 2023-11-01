@@ -127,10 +127,14 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Bugs
 + ### Solved bugs
     - The pictures in the gallery were not centered across all  screens and needed to be fixed.
+      - Solution: I needed to add auto to the margin
+
     - The response page was scrollable even though it was not supposed to be.
+      - Solution: The page had more height than it was supposed to. I adjusted the height of the page and added to the footer margin-top:auto
     ---
 + ### Unsolved bugs
     - None.
 + ### Mistakes
+    - Bad commit message and i will do my best to improve on that
 
 ---
