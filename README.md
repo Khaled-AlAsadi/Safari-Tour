@@ -133,6 +133,7 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 - [Balsamiq](https://balsamiq.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [GitHub](https://github.com/) was used to host the code of the website.
+- [GitHub Pages](https://pages.github.com/) was used to host the website.
 
 ---
 

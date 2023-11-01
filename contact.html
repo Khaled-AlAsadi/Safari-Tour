@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
+  <!-- Meta tags for character set, viewport, author, description, and keywords -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Khaled Al Asadi">
   <meta name="description" content="contact us">
   <meta name="keywords" content="safari, tour, wildlife, adventure, travel, Africa, animals">
+  <!-- Links to CSS stylesheets -->
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
-  <title>Safari Tour</title>
+  <title>Safari Tour | Contact</title>
 </head>
 
 <body class="contact-page">
@@ -37,13 +39,13 @@
       <form action="response.html" method="GET">
         <!-- Contact form with input fields and a submit button -->
         <label for="fname">First Name</label>
-        <input type="text" id="fname" required name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" required name="firstname" placeholder="Your name">
 
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
         <label for="lname">email</label>
         <input type="text" id="email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$" name="email"
-          placeholder="Your email address.." minlength="5" oninput="setCustomValidity('');">
+          placeholder="Your email address" minlength="5" oninput="setCustomValidity('');">
         <label for="country">Country</label>
         <select id="country" name="country">
           <option value="australia">Australia</option>
@@ -52,12 +54,12 @@
         </select>
 
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px;"
+        <textarea id="subject" name="subject" placeholder="Write something" style="height: 200px;"
           required></textarea>
 
         <button class="cta-button" type="submit" value="Submit" aria-label="Submit">Submit</button>
       </form>
-    </section >
+    </section>
   </main>
   <footer>
     <!-- Footer section with social media links -->

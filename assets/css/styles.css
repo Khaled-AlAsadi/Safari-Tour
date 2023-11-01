@@ -107,29 +107,97 @@ a:hover {
   transform: rotate(-405deg);
 }
 
-
-/*navbar*/
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
+/*Home page body */
+.main-container {
   width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  max-height: 100%;
 }
 
-
-footer a {
-  margin: 10px;
+.land-page {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-footer a i {
-  color: #6878da;
-  font-size: 24px;
-  transition: color 0.3s;
+.land-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-footer a i:hover {
-  color: #ff4500;
+/* Calendar */
+.calender-container {
+  max-width: 91%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+.calender-container .content {
+  text-align: center;
+}
+
+.calender-container p a {
+  color: blue;
+}
+
+.month {
+  background: #162fcd;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month ul li {
+  list-style-type: none;
+}
+
+.weekdays {
+  background-color: #ddd;
+  padding: 0;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #333;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
 }
 
 /* gallery-page styles */
@@ -256,99 +324,6 @@ input[type='submit']:hover {
   background-color: #45a049;
 }
 
-
-/*Start page body */
-.main-container {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  max-height: 100%;
-}
-
-.land-page {
-  width: 100%;
-  max-height: 400px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.land-page img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* Calendar */
-.calender-container {
-  max-width: 91%;
-  margin: 0 auto;
-  padding: 20px;
-  margin-top: 20px;
-  border: 1px solid #ccc;
-  background-color: #f2f2f2;
-}
-
-.calender-container .content {
-  text-align: center;
-}
-
-.calender-container p a {
-  color: blue;
-}
-
-.month {
-  background: #162fcd;
-  text-align: center;
-}
-
-.month ul {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.month ul li {
-  list-style-type: none;
-}
-
-.weekdays {
-  background-color: #ddd;
-  padding: 0;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size: 12px;
-  color: #333;
-}
-
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white !important;
-}
-
 /*iframes*/
 .media-container {
   text-align: center;
@@ -431,6 +406,31 @@ input[type='submit']:hover {
 .response_text h2 {
   font-size: 24px;
   margin: 10px 0;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+
+footer a {
+  margin: 10px;
+}
+
+footer a i {
+  color: #6878da;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+footer a i:hover {
+  color: #ff4500;
 }
 
 /*Responive styles - Media Queries*/
