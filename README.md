@@ -2,6 +2,8 @@
 
 The Safari Tour website allows people to learn about the wild life and find information about animals living in the wild . The visitors of the website could quickly contact the company about booking a trip as well as asking questions.
 The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-Tour/)
+    
+![Device Mockup](documentation/device_mockup.png)
 
 ---
 
@@ -74,13 +76,11 @@ The site can be accessed by this [link](https://khaled-alasadi.github.io/Safari-
 
 - #### Call to Action Section
 
-      - Call to Action Section has an explicit message for the visitors of the website to contact the company.
+    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
 
-      - has also a button that directs to the contact page.
+    - has also a button that directs to the contact page.
 
-  ​
-  ![Call to Action Section](documentation/call_to_action.png)
-
+![Call to Action Section](documentation/call_to_action.png)
 ---
 
 - #### Footer
